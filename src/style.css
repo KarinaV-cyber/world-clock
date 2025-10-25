@@ -10,12 +10,29 @@ h2{
     margin: 0 0 5px;
     font-size: 28px;
 }
- select{
-        display:block;
-        width: 100%;
-        border-radius: 8px;
-        padding: 10px;
-    }
+ select {
+    font-family: "Varela Round", sans-serif;
+    font-size: 16px;
+    color: #333;
+    background-color: #f4f4f9;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    width: 250px;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+select:hover {
+    border-color: #c3195d;
+    background-color: #fff;
+}
+
+option {
+    color: #333;
+    background-color: #fff;
+}
 
 footer{
     text-align: center;
@@ -25,23 +42,20 @@ footer{
 }
 .container{
     max-width:600px;
+    font-family: sans-serif;
       background-color: #fdffcd;
     border-radius: 10px;
     padding:60px;
     margin:60px auto;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    margin-bottom: 5px;
-}
+  }
 .city{
     display:flex;
     justify-content: space-between;
     margin: 20px 0;
     padding: 20px 0;
     border-bottom: 1px dashed rgba(0,0,0,0.2);
-
-}
-.city:last-child{
-
+    
 }
 .time{
     font-size: 48px;
